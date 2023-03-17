@@ -1,0 +1,124 @@
+*,::after,::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: inherit
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth
+}
+
+@media only screen and (max-width: 75em) {
+    html {
+        font-size:59%
+    }
+}
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    line-height: 2.5;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Source Sans Pro',sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+li {
+    list-style: none
+}
+
+@media screen and (max-width: 600px) {
+    .coffe__header {position: relative;}
+    .logo
+    .coffe__links {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .links a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+.coffe__header {
+    background-color: #7a2d0055;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 3.5rem;
+    align-items: center;
+}
+
+.logo__img {
+    display: inline-block;
+}
+
+.logo {
+    display: flex;
+    cursor: pointer;
+    color: #cb723f;
+    transition: color .3s
+}
+
+.coffe__header:hover {
+    color: #341a00
+}
+
+.logo {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50px;
+    /* margin-left: 1.5rem;
+    margin-top: 1.5rem; */
+    overflow: hidden;
+}
+
+.coffe__links {
+    display: flex
+}
+
+.homelink {
+    padding: 2.2rem 3rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #5f2e00;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: color .3s
+}
+
+.menulink {
+    padding: 2.2rem 3rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #5f2e00;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: color .3s
+}
+
+.contactlink {
+    padding: 2.2rem 3rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #5f2e00;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: color .3s
+}
+
