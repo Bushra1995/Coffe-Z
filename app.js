@@ -1,3 +1,4 @@
+alert("Welcome to Caffe-Z")
 let name = prompt("What's your name?");
 let gender = prompt("what is your Gender male/female ?");
 if (gender=="female"){
@@ -9,22 +10,9 @@ else if (gender=="male"){
 else {
     alert("Welcome " +name+"!")
 }
+let drinkType = prompt("Would you like a hot or cold drink?☕🍷");
+let drinkName = prompt("What kind of drink would you like?");
 
+alert("Your " + drinkType + " " + drinkName + " is being prepared!☕");
 
-// let drink = prompt("Do you want a hot or cold drink?");
-// let drinkType = confirm(drink==name)
-// alert (drinkType+"is getting prepared")
-
-// console.log (drinkType)
-let order; 
-let drink = prompt("What would you like to drink? hot or cold drink ?☕🍷 "); 
-if (drink == "Hot" || drink == "hot") {
-    order = prompt("enter the name of drink you want :")
-} else if (drink == "Cold" || drink == "cold") {
-    order = prompt("enter the name of drink you want :")
-
-}
-
-alert("your order is perparing right now")
-
-alert("Name : " + user + " , Your order : " + order)
+console.log(name + " ordered a " + drinkType + " " + drinkName + ".");
