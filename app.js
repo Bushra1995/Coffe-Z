@@ -16,9 +16,8 @@ else {
 // alert (drinkType+"is getting prepared")
 
 // console.log (drinkType)
-
-let order;
-let drink = prompt("What would you like to drink? hot or cold drink ? ");
+let order; 
+let drink = prompt("What would you like to drink? hot or cold drink ?☕🍷 "); 
 if (drink == "Hot" || drink == "hot") {
     order = prompt("enter the name of drink you want :")
 } else if (drink == "Cold" || drink == "cold") {
