@@ -80,9 +80,8 @@ li {
     width: 7rem;
     height: 7rem;
     border-radius: 50px;
-    /* margin-left: 1.5rem;
-    margin-top: 1.5rem; */
     overflow: hidden;
+    margin-left: 6%;
 }
 
 .coffe__links {
@@ -120,5 +119,10 @@ li {
     letter-spacing: 1px;
     font-weight: 700;
     transition: color .3s
+}
+
+.main {
+    background-image: url(https://images5.alphacoders.com/905/905439.jpg);
+    display: block;
 }
 
