@@ -1,7 +1,7 @@
 alert("Welcome to Caffe-Z")
 let userInfo = [];
 let user = prompt("What's your name?");
-let gender = "";
+function gender() {}
 
 
 // if (gender=="female"){
