@@ -1,4 +1,4 @@
-*,::after,::before {
+/* *,::after,::before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -119,10 +119,7 @@ li {
     letter-spacing: 1px;
     font-weight: 700;
     transition: color .3s
-}
+} */
 
-.main {
-    background-image: url(https://images5.alphacoders.com/905/905439.jpg);
-    display: block;
-}
+/* --------------------------------- */
 
