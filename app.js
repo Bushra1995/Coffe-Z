@@ -91,4 +91,6 @@ function render(name, age, drinkType1, drinkType2, drink) {
     formContent.appendChild(drinkType);
     formContent.appendChild(drinkName);
     form.reset();      // This function is to clear the inputs that user has entered
+
+    
 }
